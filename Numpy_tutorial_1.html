@@ -1,0 +1,150 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Numpy tutorial 1",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyOISXvmkZuyVptYzF58cnKA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/prakasshrestha/programmingnotes/blob/master/Numpy_tutorial_1.html\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hKbKCke-2cT2",
+        "outputId": "83fe8c42-d126-410f-b12b-d32bea811df2"
+      },
+      "source": [
+        "# python काे String performance \r\n",
+        "# length पत्तालगाउने काे लागि  python मा \r\n",
+        "# len function को use गरिन्छ। \r\n",
+        "\r\n",
+        "a = \"hello world !\"\r\n",
+        "print(len(a))"
+      ],
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "13\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_Rux7S052fUP",
+        "outputId": "c91c3b89-964b-486b-f5fc-0b4612062828"
+      },
+      "source": [
+        "# String मा search गर्न in function use गरिन्छ। \r\n",
+        "\r\n",
+        "txt = \"the best things in life are free!\"\r\n",
+        "print(\"free\" in txt )\r\n",
+        "if \"free\" in txt:\r\n",
+        "     print(\"yes, 'free' is present.\")"
+      ],
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "True\n",
+            "yes, 'free' is present.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "15oYlijI2pDp",
+        "outputId": "b6ba398d-410a-4ada-a75d-70e6f174fb65"
+      },
+      "source": [
+        "# यदि String मा value present छ कि छैन भनेर check गर्नकोलागि\r\n",
+        "txt = \"The best things in life are free!\"\r\n",
+        "print(\"expensive\" not in txt)"
+      ],
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mcFzxXRR5ruL",
+        "outputId": "06661c1b-d01d-4728-87bc-863ca15c4396"
+      },
+      "source": [
+        "# use it in an if statement \r\n",
+        "# print only if \"expensive \" is not present:\r\n",
+        "txt = \"The best things in life are free!\"\r\n",
+        "if \"expensive\" not in txt:\r\n",
+        "  print(\"yes, 'expensive' is NOT present.\")\r\n"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "yes, 'expensive' is NOT present.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "uIxQy1Fj6FH6"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 21,
+      "outputs": []
+    }
+  ]
+}
